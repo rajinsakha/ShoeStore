@@ -41,7 +41,7 @@ const Navbar = () => {
             />
           </div>
           {toggleMenu && (
-            <div className="w-full h-screen flex  justify-center items-center z-30 fixed top-0 left-0 flex-col bg-orange-600">
+            <div className="w-full h-screen flex  justify-center items-center z-10 fixed top-0 left-0 flex-col bg-orange-600">
               <AiOutlineClose className="absolute top-8 right-8 cursor-pointer text-white text-3xl"
                 onClick={() => {
                   setToggleMenu(false);
